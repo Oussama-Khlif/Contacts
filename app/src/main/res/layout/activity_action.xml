@@ -1,0 +1,82 @@
+<!-- res/layout/activity_country_lookup.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".CountryLookupActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="240dp"
+        android:hint="Entrer le nom du numéro de téléphone"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/numberToAdd"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="300dp"
+        android:hint="Entrer le numéro de téléphone"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ajouter ou supprimer un numéro de téléphone"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="145dp"
+        android:layout_height="69dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Ajouter"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="146dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Supprimer"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/actionBack"
+        android:layout_width="146dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="Annuler"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="117dp"
+        android:layout_height="106dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/edit" />
+</RelativeLayout>

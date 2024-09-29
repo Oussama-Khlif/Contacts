@@ -1,0 +1,56 @@
+<!-- res/layout/activity_contact_list.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ContactListActivity">
+
+    <!-- ListView to display contacts -->
+    <ListView
+        android:id="@+id/listViewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="150dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/listviewback"
+        android:layout_width="109dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:text="Retour"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="109dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:text="Action"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Contacts"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        app:srcCompat="@drawable/contact" />
+
+</RelativeLayout>

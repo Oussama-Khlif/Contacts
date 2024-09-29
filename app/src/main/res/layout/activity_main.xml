@@ -1,0 +1,70 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/searchCountry"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:autoText="false"
+        android:text="Recherche Pays"
+        android:textSize="18sp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/aboutBack"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:autoText="false"
+        android:text="A propos"
+        android:textSize="18sp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/buttonGoToLogin"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:autoText="false"
+        android:text="Liste des contacts"
+        android:textSize="18sp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Mes Contacts"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="©Oussama Khlif Tout les droits sont réservés" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="128dp"
+        android:layout_height="161dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/receiver" />
+
+</RelativeLayout>

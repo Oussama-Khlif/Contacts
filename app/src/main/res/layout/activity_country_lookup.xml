@@ -1,0 +1,68 @@
+<!-- res/layout/activity_country_lookup.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".CountryLookupActivity">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="300dp"
+        android:hint="Entrer le numéro de téléphone"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="153dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Recherche"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/searchBack"
+        android:layout_width="153dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/number"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:text="Retour"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-black"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Recherche pays par numéro de téléphone"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/rechercher" />
+</RelativeLayout>

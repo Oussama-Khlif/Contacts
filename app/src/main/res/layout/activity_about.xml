@@ -1,0 +1,51 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/aboutBack"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:autoText="false"
+        android:text="Retour"
+        android:textSize="20sp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="A propos de Mes Contacts"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:text="Bienvenue sur Mes Contacts, une application en cours de développement créée par Oussama Khlif, étudiant en informatique. Cette application prometteuse vise à simplifier la gestion de vos contacts de manière efficace et intuitive. Restez à l'écoute pour les mises à jour régulières, car Mes Contacts évolue constamment pour répondre à vos besoins. Tous droits réservés à Oussama Khlif."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="112dp"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/information" />
+
+</RelativeLayout>
